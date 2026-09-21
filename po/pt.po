@@ -45,7 +45,7 @@ msgstr "Reiniciar..."
 
 #: src/kiwimenu.js
 msgid "Shut Down..."
-msgstr "Encerrar..."
+msgstr "Desligar..."
 
 #: src/kiwimenu.js
 msgid "Lock Screen"
