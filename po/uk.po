@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Force Quit Shortcut\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-25 18:38+0300\n"
-"PO-Revision-Date: 2026-08-06 17:01+0300\n"
+"PO-Revision-Date: 2026-09-26 16:09+0300\n"
 "Last-Translator: Dymko <Dymkovych@proton.me>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -25,11 +25,11 @@ msgstr "Примусово завершити"
 #: extension.js:66
 msgid ""
 "Could not find the \"gjs\" executable needed to open the Force Quit window."
-msgstr ""
+msgstr "Не знайдено виконуваний файл gjs, необхідний для роботи розширення."
 
 #: extension.js:81
 msgid "Failed to launch the Force Quit window."
-msgstr ""
+msgstr "Не вдалося відкрити вікно."
 
 #: prefs.js:21
 msgid "Behavior"
@@ -101,4 +101,3 @@ msgid ""
 msgstr ""
 "Якщо програма довго не відповідає, виберіть її назву та натисніть «Примусово "
 "завершити»."
-

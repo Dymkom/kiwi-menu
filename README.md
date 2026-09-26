@@ -6,9 +6,15 @@
 
 </div>
 
-# Force Quit Shortcut
+<h1 align="center">Force Quit Shortcut</h1>
 
-**Fast, lightweight, and convenient force-closing of unresponsive applications for GNOME Shell.**
+<p align="center">
+  🇬🇧 English | 🇺🇦 <a href="ЧИТАНКА.md">Українська</a>
+</p>
+
+Fast, lightweight, and convenient force-closing of unresponsive applications for GNOME Shell.
+
+![Screenshot](images/ScreenshotEn.png)
 
 This extension aims to fill a gap in the user experience, serving as a perfect companion to the standard System Monitor. Can it compete with heavy resource monitors like *Resources*? Absolutely. Thanks to its speed, simplicity, and minimal system footprint.
 
