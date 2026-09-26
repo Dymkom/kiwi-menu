@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Force Quit Shortcut\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 18:38+0300\n"
+"POT-Creation-Date: 2026-08-06 17:00+0300\n"
 "PO-Revision-Date: 2026-08-06 17:01+0300\n"
 "Last-Translator: Dymko <Dymkovych@proton.me>\n"
 "Language-Team: Ukrainian\n"
@@ -16,20 +16,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : "
 "n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Gtranslator 50.0\n"
-
-#: extension.js:65 extension.js:80 app/forceQuitWindow.js:48
-#: app/forceQuitWindow.js:321
-msgid "Force Quit"
-msgstr "Примусово завершити"
-
-#: extension.js:66
-msgid ""
-"Could not find the \"gjs\" executable needed to open the Force Quit window."
-msgstr ""
-
-#: extension.js:81
-msgid "Failed to launch the Force Quit window."
-msgstr ""
 
 #: prefs.js:21
 msgid "Behavior"
@@ -91,6 +77,10 @@ msgstr "Уведіть нове сполучення... (Esc, щоб скасу�
 msgid "Click to change keyboard shortcut"
 msgstr "Натисніть, щоби встановити інше скорочення"
 
+#: app/forceQuitWindow.js:48 app/forceQuitWindow.js:321
+msgid "Force Quit"
+msgstr "Примусово завершити"
+
 #: app/forceQuitWindow.js:259
 msgid "Force Quit Applications"
 msgstr "Примусове завершення"
@@ -102,3 +92,17 @@ msgstr ""
 "Якщо програма довго не відповідає, виберіть її назву та натисніть «Примусово "
 "завершити»."
 
+#~ msgid "seconds after system start"
+#~ msgstr "Кількість секунд після старту системи"
+
+#~ msgid "Startup delay"
+#~ msgstr "Час затримки"
+
+#~ msgid "Shortcut combination"
+#~ msgstr "Виклик вікна"
+
+#~ msgid "Navigate up"
+#~ msgstr "Навігація списком вгору"
+
+#~ msgid "Navigate down"
+#~ msgstr "Навігація списком вниз"

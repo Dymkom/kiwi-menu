@@ -9,11 +9,11 @@
 import Gio from 'gi://Gio';
 import Shell from 'gi://Shell';
 
-const OBJECT_PATH = '/org/gnome/Shell/Extensions/KiwiMenu';
+const OBJECT_PATH = '/org/gnome/Shell/Extensions/ForceQuitShortcut';
 
 const FORCE_QUIT_IFACE = `
 <node>
-  <interface name="org.gnome.Shell.Extensions.KiwiMenu.ForceQuit">
+  <interface name="org.gnome.Shell.Extensions.ForceQuitShortcut.ForceQuit">
     <method name="ListApps">
       <arg type="s" direction="out" name="apps"/>
     </method>
@@ -27,8 +27,8 @@ const NON_KILLABLE_WM_CLASSES = new Set([
   'gnome-shell',
 ]);
 
-// Kiwi Menu's own helper windows (Force Quit, About) must never list or kill themselves.
-const SELF_ID_FRAGMENT = 'com.github.kemma.kiwimenu';
+// Window helper (Force Quit) must never list or kill themselves.
+const SELF_ID_FRAGMENT = 'org.gnome.shell.extensions.forcequitshortcut';
 
 function getAppPids(app) {
   const pids = new Set();
@@ -104,7 +104,7 @@ export class ForceQuitService {
       try {
         window.kill();
       } catch (error) {
-        logError(error, `Failed to force quit ${app.get_name()}`);
+        console.error(`Failed to force quit ${app.get_name()}:`, error);
       }
     }
   }

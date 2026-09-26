@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.forcequitshortcut" path="/org/gnome/shell/extensions/forcequitshortcut/">
+    <key name="shortcut-key" type="as">
+      <default><![CDATA[['<Alt><Super>Escape']]]></default>
+      <summary>Force Quit Shortcut</summary>
+    </key>
+    <key name="autostart" type="b">
+      <default>false</default>
+      <summary>Start in background automatically</summary>
+    </key>
+    <key name="autostart-delay" type="i">
+      <default>25</default>
+      <summary>Startup delay in seconds</summary>
+    </key>
+  </schema>
+</schemalist>
