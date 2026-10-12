@@ -38,12 +38,14 @@ export function createCustomMenuItem(settings, gettextFunc) {
         return null;
     }
 
-    // Use an image menu item when a valid icon file is configured
+    // Use an image menu item when a valid icon file is configured, unless the
+    // user turned off menu item icons in preferences.
+    const hideIcons = settings.get_boolean('hide-menu-icons');
     const iconFile = trimmedIconPath.length > 0
         ? Gio.File.new_for_path(trimmedIconPath)
         : null;
 
-    const menuItem = iconFile?.query_exists(null)
+    const menuItem = !hideIcons && iconFile?.query_exists(null)
         ? new PopupMenu.PopupImageMenuItem(trimmedLabel, new Gio.FileIcon({ file: iconFile }))
         : new PopupMenu.PopupMenuItem(trimmedLabel);
 

@@ -56,6 +56,11 @@
       <summary>Custom menu item shortcut</summary>
       <description>Keyboard shortcut that runs the custom menu item command</description>
     </key>
+    <key type="b" name="hide-menu-icons">
+      <default>false</default>
+      <summary>Hide Menu Item Icons</summary>
+      <description>Hide the icons shown next to Kiwi Menu entries. The Recent Items submenu keeps its icons.</description>
+    </key>
     <key type="b" name="macos-accelerators">
       <default>false</default>
       <summary>macOS style accelerator symbols</summary>

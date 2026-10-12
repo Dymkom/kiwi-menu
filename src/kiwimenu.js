@@ -139,6 +139,11 @@ export const KiwiMenu = GObject.registerClass(
           this._renderPopupMenu().catch(logError)
         )
       );
+      this._settingsSignalIds.push(
+        this._settings.connect('changed::hide-menu-icons', () =>
+          this._renderPopupMenu().catch(logError)
+        )
+      );
 
       this._menuOpenSignalId = this.menu.connect(
         'open-state-changed',
@@ -416,7 +421,10 @@ export const KiwiMenu = GObject.registerClass(
     }
 
     _makeMenu(title, cmds, iconName, accel) {
-      const menuItem = iconName
+      // Icons can be turned off in preferences; the Recent Items submenu is
+      // unaffected because it builds its own items (see recentItemsSubmenu.js).
+      const showIcon = iconName && !this._settings.get_boolean('hide-menu-icons');
+      const menuItem = showIcon
         ? new PopupMenu.PopupImageMenuItem(title, iconName)
         : new PopupMenu.PopupMenuItem(title);
       const singleCmd = Array.isArray(cmds) && cmds.length === 1 ? cmds[0] : null;
@@ -529,7 +537,10 @@ export const KiwiMenu = GObject.registerClass(
     }
 
     _makeRecentItemsMenu(title, iconName) {
-      const submenuItem = new RecentItemsSubmenu(title, this.menu, this._recentMenuManager, this._extension, iconName);
+      // Only the "Recent Items" entry itself follows the hide-menu-icons
+      // preference; the items inside the submenu always keep their icons.
+      const entryIcon = this._settings.get_boolean('hide-menu-icons') ? null : iconName;
+      const submenuItem = new RecentItemsSubmenu(title, this.menu, this._recentMenuManager, this._extension, entryIcon);
       this.menu.addMenuItem(submenuItem);
     }
 

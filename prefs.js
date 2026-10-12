@@ -61,6 +61,8 @@ const OptionsPage = GObject.registerClass(
         selected: this._settings.get_int('icon'),
       });
 
+      
+
       menuGroup.add(iconSelectorRow);
 
       const defaultAppStoreCommand = 'gnome-software';
@@ -222,6 +224,26 @@ const OptionsPage = GObject.registerClass(
       this._settings.bind(
         'macos-accelerators',
         macosAccelSwitch,
+        'active',
+        Gio.SettingsBindFlags.DEFAULT
+      );
+
+      // Hide menu item icons
+      const hideMenuIconsSwitch = new Gtk.Switch({
+        valign: Gtk.Align.CENTER,
+        active: this._settings.get_boolean('hide-menu-icons'),
+      });
+      const hideMenuIconsRow = new Adw.ActionRow({
+        title: this._('Hide Menu Item Icons'),
+        subtitle: this._('Hide the icons next to Kiwi Menu entries. The Recent Items submenu keeps its icons.'),
+        activatable_widget: hideMenuIconsSwitch,
+      });
+      hideMenuIconsRow.add_suffix(hideMenuIconsSwitch);
+      menuGroup.add(hideMenuIconsRow);
+
+      this._settings.bind(
+        'hide-menu-icons',
+        hideMenuIconsSwitch,
         'active',
         Gio.SettingsBindFlags.DEFAULT
       );
