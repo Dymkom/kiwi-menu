@@ -37,7 +37,7 @@ Recommended to pair with [Kiwi (is not Apple)](https://extensions.gnome.org/exte
 
 ## Development
 
-After changing code, run `./install.sh` and then `dbus-run-session gnome-shell --devkit` to test.
+After changing code, run `dbus-run-session gnome-shell --devkit` to test.
 
 ## Translations
 
