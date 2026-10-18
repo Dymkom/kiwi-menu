@@ -6,3 +6,4 @@ samples
 *.log
 locale
 *.compiled
+install.sh
