@@ -68,8 +68,6 @@ const OptionsPage = GObject.registerClass(
         selected: this._settings.get_int('icon'),
       });
 
-      
-
       menuGroup.add(iconSelectorRow);
 
       const defaultAppStoreCommand = 'gnome-software';

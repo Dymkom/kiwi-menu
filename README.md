@@ -1,5 +1,4 @@
 <!-- Row 1: install & reach -->
-
 [![Install on GNOME Extensions](https://img.shields.io/badge/Install_on-GNOME_Extensions-blue?logo=gnome)](https://extensions.gnome.org/extension/8697/kiwi-menu/)
 [![EGO downloads](https://img.shields.io/gnome-extensions/dt/kiwimenu@kemma?label=EGO%20downloads)](https://extensions.gnome.org/extension/8697/kiwi-menu/)
 ![Shell 45–49](https://img.shields.io/badge/GNOME_Shell-45–50-informational?logo=gnome)
@@ -37,7 +36,19 @@ Recommended to pair with [Kiwi (is not Apple)](https://extensions.gnome.org/exte
 
 ## Development
 
-After changing code, run `dbus-run-session gnome-shell --devkit` to test.
+After changing code, run `dbus-run-session gnome-shell --devkit --wayland` to test (`dbus-run-session gnome-shell --nested --wayland` on GNOME 48 and older).
+
+Make sure Mutter Development Kit is installed:
+
+**Ubuntu/Debian/Mint**:
+`sudo apt install mutter-dev-bin`
+
+**Fedora**:
+`sudo dnf install mutter-devkit mutter-devel`
+
+**Arch**:
+
+`sudo pacman -S mutter-devkit`
 
 ## Translations
 
