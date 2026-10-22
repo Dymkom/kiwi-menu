@@ -10,9 +10,7 @@
 
 Kiwi Menu adds compact, macOS-inspired quick menu that keeps your most common session actions one click away.
 
-
 <img width="2261" height="1322" alt="Screenshot From 2026-07-21 edited-3" src="https://github.com/user-attachments/assets/2c23a992-6015-4b10-a4b8-91a397fdfc25" />
-
 
 ## Features
 
@@ -35,6 +33,22 @@ Recommended to pair with [Kiwi (is not Apple)](https://extensions.gnome.org/exte
 ## Known Issues
 
 - Recent Applications menu is cleared after log out. This is limitation of Gnome shell
+
+## Development
+
+After changing code, run `dbus-run-session gnome-shell --devkit --wayland` to test (`dbus-run-session gnome-shell --nested --wayland` on GNOME 48 and older).
+
+Make sure Mutter Development Kit is installed:
+
+**Ubuntu/Debian/Mint**:
+`sudo apt install mutter-dev-bin`
+
+**Fedora**:
+`sudo dnf install mutter-devkit mutter-devel`
+
+**Arch**:
+
+`sudo pacman -S mutter-devkit`
 
 ## Translations
 
