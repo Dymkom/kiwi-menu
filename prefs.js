@@ -237,8 +237,8 @@ const OptionsPage = GObject.registerClass(
       const menuIconsModes = [MENU_ICONS_ALL, MENU_ICONS_TOP_THREE, MENU_ICONS_NONE];
       const menuIconsList = new Gtk.StringList();
       [
-        this._('All entries'),
-        this._('Top three only'),
+        this._('Default'),
+        this._('Three'),
         this._('None'),
       ].forEach((label) => menuIconsList.append(label));
 

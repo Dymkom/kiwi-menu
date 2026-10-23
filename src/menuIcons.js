@@ -75,12 +75,12 @@ export function shouldShowEntryIcon(item, mode) {
 }
 
 /**
- * Whether the user's custom menu entry should render its icon. It sits below
- * the top three, so only the 'all' mode gives it one.
+ * Whether the user's custom menu entry should render its icon. A custom icon
+ * overrides 'top-three', but 'none' still hides it.
  *
  * @param {string} mode - Value of the 'menu-icons' setting
  * @returns {boolean} True when the custom entry shows its icon
  */
 export function shouldShowCustomEntryIcon(mode) {
-    return normalizeMenuIconsMode(mode) === MENU_ICONS_ALL;
+    return normalizeMenuIconsMode(mode) !== MENU_ICONS_NONE;
 }
