@@ -96,6 +96,30 @@ msgstr "Pieteikšanās logs..."
 msgid "Users & Groups Settings..."
 msgstr "Lietotāju un grupu iestatījumi..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "Lietotņu piespiedu aizvēršana"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "Ja lietotne kādu laiku nereaģē, atlasiet tās nosaukumu un noklikšķiniet uz “Piespiedu aizvēršana”."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "Mikroshēma"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "Atmiņa"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "OS"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "Vairāk informācijas..."
+
 #: prefs.js
 msgid "Options"
 msgstr "Opcijas"
@@ -119,6 +143,26 @@ msgstr "Lietotņu veikala komanda"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "Komanda, kas tiek palaista, atverot App Store izvēlnes vienumu."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "Izvēlnes vienumu ikonas"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Rādīt ikonas visiem vienumiem, tikai trim augšējiem (Par šo datoru, Sistēmas iestatījumi, Lietotņu veikals) vai nevienam."
+
+#: prefs.js
+msgid "Default"
+msgstr "Noklusējums"
+
+#: prefs.js
+msgid "Three"
+msgstr "Trīs"
+
+#: prefs.js
+msgid "None"
+msgstr "Nav"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -251,6 +295,100 @@ msgstr "Lietot izmaiņas"
 #: prefs.js
 msgid "Change log"
 msgstr "Izmaiņu žurnāls"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Piespiedu aizvēršanas īsinājumtaustiņš"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Īsinājumtaustiņš, kas atver piespiedu aizvēršanas logu."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Notīrīt īsinājumtaustiņu"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Atspējots"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "macOS stila īsinājumtaustiņi"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Rādīt īsinājumtaustiņu norādes ar macOS simboliem (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Īsinājumtaustiņš"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "Īsinājumtaustiņš, kas palaiž pielāgoto komandu."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Iestatīt īsinājumtaustiņu"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Nospiediet īsinājumtaustiņu"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc, lai atceltu · Backspace, lai atspējotu"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "Neobligāts attēls, kas tiek rādīts blakus izvēlnes nosaukumam."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Ikona"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Izvēlēties ikonas failu"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Noņemt ikonu"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "Izvēlētais fails netika atrasts."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Izvēlēties pielāgotā izvēlnes vienuma ikonu"
+
+#: prefs.js
+msgid "Images"
+msgstr "Attēli"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Vienums nav pieejams"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "Neizdevās atvērt “%s”."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Lietotne nav pieejama"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "Neizdevās palaist “%s”."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Darbvirsma"
 
 #~ msgid "Show Activities Button"
 #~ msgstr "Rādīt aktivitāšu pogu"

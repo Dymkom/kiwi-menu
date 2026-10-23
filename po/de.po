@@ -96,6 +96,30 @@ msgstr "Anmeldefenster..."
 msgid "Users & Groups Settings..."
 msgstr "Benutzer & Gruppen-Einstellungen..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "Beenden von Anwendungen erzwingen"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "Wenn eine App eine Zeit lang nicht reagiert, wählen Sie ihren Namen aus und klicken Sie auf „Beenden erzwingen“."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "Chip"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "Arbeitsspeicher"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "Betriebssystem"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "Weitere Informationen..."
+
 #: prefs.js
 msgid "Options"
 msgstr "Optionen"
@@ -119,6 +143,26 @@ msgstr "App-Store-Befehl"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "Befehl, der beim Öffnen des App-Store-Menüeintrags ausgeführt wird."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "Menüeintrag-Symbole"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Symbole bei allen Einträgen, nur bei den ersten drei (Über diesen PC, Systemeinstellungen, App-Store) oder bei keinem anzeigen."
+
+#: prefs.js
+msgid "Default"
+msgstr "Standard"
+
+#: prefs.js
+msgid "Three"
+msgstr "Drei"
+
+#: prefs.js
+msgid "None"
+msgstr "Keine"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -254,6 +298,100 @@ msgstr "Änderungen anwenden"
 #: prefs.js
 msgid "Change log"
 msgstr "Änderungsprotokoll"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Tastenkürzel für „Beenden erzwingen“"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Tastenkürzel, das das Fenster „Beenden erzwingen“ öffnet."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Tastenkürzel löschen"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "Tastenkürzel im macOS-Stil"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Tastenkürzel-Hinweise mit macOS-Symbolen anzeigen (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Tastenkürzel"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "Tastenkürzel, das den benutzerdefinierten Befehl ausführt."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Tastenkürzel festlegen"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Tastenkürzel drücken"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc zum Abbrechen · Rücktaste zum Deaktivieren"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "Optionales Bild neben der Menübeschriftung."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Symbol"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Symboldatei auswählen"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Symbol entfernen"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "Die ausgewählte Datei wurde nicht gefunden."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Symbol für den benutzerdefinierten Menüeintrag auswählen"
+
+#: prefs.js
+msgid "Images"
+msgstr "Bilder"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Objekt nicht verfügbar"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "„%s“ konnte nicht geöffnet werden."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Anwendung nicht verfügbar"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "„%s“ konnte nicht gestartet werden."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Desktop"
 
 #~ msgid "Show Activities Button"
 #~ msgstr "Aktivitäten-Schaltfläche anzeigen"

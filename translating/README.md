@@ -10,24 +10,27 @@
 
 | Language | Code | Status | Completion |
 |----------|------|--------|------------|
-| German | de | 🟢 Complete | 42/42 (100%) |
-| Spanish | es | 🟢 Complete | 42/42 (100%) |
-| Estonian | et | 🟢 Complete | 41/42 (97.6%) |
-| Persian | fa | 🟢 Complete | 41/42 (97.6%) |
-| Finnish | fi | 🟢 Complete | 41/42 (97.6%) |
-| French | fr | 🟢 Complete | 42/42 (100%) |
-| Italian | it | 🟢 Complete | 41/42 (97.6%) |
-| Lithuanian | lt | 🟢 Complete | 41/42 (97.6%) |
-| Latvian | lv | 🟢 Complete | 42/42 (100%) |
-| Norwegian | nb | 🟢 Complete | 41/42 (97.6%) |
-| Dutch | nl | 🟢 Complete | 41/42 (97.6%) |
-| Polish | pl | 🟢 Complete | 41/42 (97.6%) |
-| Portuguese | pt | 🟢 Complete | 41/42 (97.6%) |
-| Swedish | sv | 🟢 Complete | 41/42 (97.6%) |
-| Chinese (Simplified) | zh-CN | 🟢 Complete | 88/88 (100%) |
-| Turkish | tr | 🟢 Complete | 41/42 (97.6%) |
+| German | de | 🟢 Complete | 92/93 (98.9%) |
+| Spanish | es | 🟢 Complete | 92/93 (98.9%) |
+| Estonian | et | 🟢 Complete | 92/93 (98.9%) |
+| Persian | fa | 🟢 Complete | 92/93 (98.9%) |
+| Finnish | fi | 🟢 Complete | 92/93 (98.9%) |
+| French | fr | 🟢 Complete | 92/93 (98.9%) |
+| Hungarian | hu | 🟢 Complete | 93/93 (100%) |
+| Italian | it | 🟢 Complete | 92/93 (98.9%) |
+| Korean | ko | 🟢 Complete | 92/93 (98.9%) |
+| Lithuanian | lt | 🟢 Complete | 92/93 (98.9%) |
+| Latvian | lv | 🟢 Complete | 92/93 (98.9%) |
+| Norwegian | nb | 🟢 Complete | 92/93 (98.9%) |
+| Dutch | nl | 🟢 Complete | 92/93 (98.9%) |
+| Polish | pl | 🟢 Complete | 92/93 (98.9%) |
+| Portuguese | pt | 🟢 Complete | 92/93 (98.9%) |
+| Swedish | sv | 🟢 Complete | 92/93 (98.9%) |
+| Chinese (Simplified) | zh-CN | 🟢 Complete | 93/93 (100%) |
+| Turkish | tr | 🟢 Complete | 92/93 (98.9%) |
+| Ukrainian | uk | 🟢 Complete | 93/93 (100%) |
 
-*Note: The "1 untranslated message" in some languages is just the empty header (`msgid ""`), which is standard in PO files.*
+*Note: The 1 untranslated message in some languages is "Serial number", which the extension no longer uses.*
 
 ## Note
 

@@ -123,6 +123,26 @@ msgid "Command launched when opening the App Store menu item."
 msgstr "打开应用商店菜单项时启动的命令。"
 
 #: prefs.js
+msgid "Menu Item Icons"
+msgstr "菜单项图标"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "在所有条目上显示图标，仅在前三项（关于本机、系统设置、App Store）上显示，或全部不显示。"
+
+#: prefs.js
+msgid "Default"
+msgstr "默认"
+
+#: prefs.js
+msgid "Three"
+msgstr "三项"
+
+#: prefs.js
+msgid "None"
+msgstr "无"
+
+#: prefs.js
 msgid "Custom Menu Item"
 msgstr "自定义菜单项"
 

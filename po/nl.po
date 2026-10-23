@@ -96,6 +96,30 @@ msgstr "Inlogvenster..."
 msgid "Users & Groups Settings..."
 msgstr "Gebruikers- en groepsinstellingen..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "Toepassingen geforceerd afsluiten"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "Als een app een tijdje niet reageert, selecteert u de naam en klikt u op Geforceerd afsluiten."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "Chip"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "Geheugen"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "Besturingssysteem"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "Meer info..."
+
 #: prefs.js
 msgid "Options"
 msgstr "Opties"
@@ -119,6 +143,26 @@ msgstr "App Store-opdracht"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "Opdracht uitgevoerd bij het openen van het App Store-menu-item."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "Iconen van menu-items"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Toon iconen bij alle items, alleen bij de bovenste drie (Over deze pc, Systeeminstellingen, App Store) of bij geen enkel item."
+
+#: prefs.js
+msgid "Default"
+msgstr "Standaard"
+
+#: prefs.js
+msgid "Three"
+msgstr "Drie"
+
+#: prefs.js
+msgid "None"
+msgstr "Geen"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -251,3 +295,97 @@ msgstr "Wijzigingen toepassen"
 #: prefs.js
 msgid "Change log"
 msgstr "Wijzigingslogboek"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Sneltoets voor geforceerd afsluiten"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Sneltoets die het venster Geforceerd afsluiten opent."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Sneltoets wissen"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "Sneltoetsen in macOS-stijl"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Sneltoetshints tonen met macOS-symbolen (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Sneltoets"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "Sneltoets die de aangepaste opdracht uitvoert."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Sneltoets instellen"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Druk op een sneltoets"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc om te annuleren · Backspace om uit te schakelen"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "Optionele afbeelding naast het menulabel."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Icoon"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Icoonbestand kiezen"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Icoon verwijderen"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "Het geselecteerde bestand is niet gevonden."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Icoon voor aangepast menu-item selecteren"
+
+#: prefs.js
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Item niet beschikbaar"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "Kan ‘%s’ niet openen."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Toepassing niet beschikbaar"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "Kan ‘%s’ niet starten."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Bureaublad"

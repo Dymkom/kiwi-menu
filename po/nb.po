@@ -96,6 +96,30 @@ msgstr "Påloggingsvindu..."
 msgid "Users & Groups Settings..."
 msgstr "Bruker- og gruppeinnstillinger..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "Tving programmer til å avslutte"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "Hvis et program ikke svarer på en stund, velg navnet og klikk på Tvungen avslutning."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "Brikke"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "Minne"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "OS"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "Mer info..."
+
 #: prefs.js
 msgid "Options"
 msgstr "Alternativer"
@@ -119,6 +143,26 @@ msgstr "App Store-kommando"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "Kommando som startes når App Store-menyelementet åpnes."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "Ikoner for menyelementer"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Vis ikoner på alle elementer, bare på de tre øverste (Om denne PC-en, Systeminnstillinger, App Store) eller på ingen."
+
+#: prefs.js
+msgid "Default"
+msgstr "Standard"
+
+#: prefs.js
+msgid "Three"
+msgstr "Tre"
+
+#: prefs.js
+msgid "None"
+msgstr "Ingen"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -251,3 +295,97 @@ msgstr "Bruk endringer"
 #: prefs.js
 msgid "Change log"
 msgstr "Endringslogg"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Hurtigtast for tvungen avslutning"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Hurtigtast som åpner vinduet for tvungen avslutning."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Tøm hurtigtast"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Deaktivert"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "Hurtigtaster i macOS-stil"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Vis hurtigtasthint med macOS-symboler (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Hurtigtast"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "Hurtigtast som kjører den tilpassede kommandoen."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Angi hurtigtast"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Trykk en hurtigtast"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc for å avbryte · Tilbaketast for å deaktivere"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "Valgfritt bilde som vises ved siden av menyetiketten."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Ikon"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Velg ikonfil"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Fjern ikon"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "Fant ikke den valgte filen."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Velg ikon for tilpasset menyelement"
+
+#: prefs.js
+msgid "Images"
+msgstr "Bilder"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Elementet er utilgjengelig"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "Kunne ikke åpne «%s»."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Programmet er utilgjengelig"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "Kunne ikke starte «%s»."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Skrivebord"

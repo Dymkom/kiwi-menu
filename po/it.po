@@ -98,6 +98,30 @@ msgstr "Finestra di accesso..."
 msgid "Users & Groups Settings..."
 msgstr "Impostazioni utenti e gruppi..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "Uscita forzata dalle applicazioni"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "Se un'app non risponde per un po', seleziona il suo nome e fai clic su Uscita forzata."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "Chip"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "Memoria"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "Sistema operativo"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "Altre informazioni..."
+
 #: prefs.js
 msgid "Options"
 msgstr "Opzioni"
@@ -121,6 +145,26 @@ msgstr "Comando App Store"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "Comando eseguito all'apertura della voce di menu App Store."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "Icone delle voci di menu"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Mostra le icone su tutte le voci, solo sulle prime tre (Informazioni su questo PC, Impostazioni di sistema, App Store) o su nessuna."
+
+#: prefs.js
+msgid "Default"
+msgstr "Predefinito"
+
+#: prefs.js
+msgid "Three"
+msgstr "Tre"
+
+#: prefs.js
+msgid "None"
+msgstr "Nessuna"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -254,3 +298,97 @@ msgstr "Applica modifiche"
 #: prefs.js
 msgid "Change log"
 msgstr "Registro modifiche"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Scorciatoia per l'uscita forzata"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Scorciatoia da tastiera che apre la finestra Uscita forzata."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Cancella scorciatoia"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Disattivata"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "Scorciatoie in stile macOS"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Mostra i suggerimenti delle scorciatoie con i simboli di macOS (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Scorciatoia da tastiera"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "Scorciatoia che esegue il comando personalizzato."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Imposta scorciatoia"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Premi una scorciatoia"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc per annullare · Backspace per disattivare"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "Immagine facoltativa mostrata accanto all'etichetta del menu."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Icona"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Scegli file icona"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Rimuovi icona"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "Il file selezionato non è stato trovato."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Seleziona icona della voce di menu personalizzata"
+
+#: prefs.js
+msgid "Images"
+msgstr "Immagini"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Elemento non disponibile"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "Impossibile aprire «%s»."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Applicazione non disponibile"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "Impossibile avviare «%s»."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Desktop"

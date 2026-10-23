@@ -96,6 +96,30 @@ msgstr "Kirjautumisikkuna..."
 msgid "Users & Groups Settings..."
 msgstr "Käyttäjien ja ryhmien asetukset..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "Pakota sovellusten lopetus"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "Jos sovellus ei vastaa vähään aikaan, valitse sen nimi ja napsauta Pakota lopetus."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "Siru"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "Muisti"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "Käyttöjärjestelmä"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "Lisätietoja..."
+
 #: prefs.js
 msgid "Options"
 msgstr "Asetukset"
@@ -119,6 +143,26 @@ msgstr "Sovelluskaupan komento"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "App Store -valikkokohtaa avattaessa käynnistettävä komento."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "Valikkokohtien kuvakkeet"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Näytä kuvakkeet kaikissa kohdissa, vain kolmessa ylimmässä (Tietoja tästä tietokoneesta, Järjestelmäasetukset, Sovelluskauppa) tai ei missään."
+
+#: prefs.js
+msgid "Default"
+msgstr "Oletus"
+
+#: prefs.js
+msgid "Three"
+msgstr "Kolme"
+
+#: prefs.js
+msgid "None"
+msgstr "Ei mitään"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -251,3 +295,97 @@ msgstr "Käytä muutoksia"
 #: prefs.js
 msgid "Change log"
 msgstr "Muutosloki"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Pakota lopetus -pikanäppäin"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Pikanäppäin, joka avaa Pakota lopetus -ikkunan."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Tyhjennä pikanäppäin"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Pois käytöstä"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "macOS-tyyliset pikanäppäimet"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Näytä pikanäppäinvihjeet macOS-symboleilla (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Pikanäppäin"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "Pikanäppäin, joka suorittaa mukautetun komennon."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Aseta pikanäppäin"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Paina pikanäppäintä"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc peruuttaa · Askelpalautin poistaa käytöstä"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "Valinnainen kuva, joka näytetään valikon otsikon vieressä."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Kuvake"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Valitse kuvaketiedosto"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Poista kuvake"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "Valittua tiedostoa ei löytynyt."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Valitse mukautetun valikkokohdan kuvake"
+
+#: prefs.js
+msgid "Images"
+msgstr "Kuvat"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Kohde ei ole käytettävissä"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "Kohdetta ”%s” ei voitu avata."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Sovellus ei ole käytettävissä"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "Sovellusta ”%s” ei voitu käynnistää."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Työpöytä"

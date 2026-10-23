@@ -150,6 +150,26 @@ msgid "Command launched when opening the App Store menu item."
 msgstr "Ez a parancs fut az Alkalmazásbolt menüpontra kattintva."
 
 #: prefs.js
+msgid "Menu Item Icons"
+msgstr "Menüpontok ikonjai"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Ikonok megjelenítése minden menüponton, csak a felső hármon (Erről a gépről, Rendszerbeállítások, Alkalmazásbolt) vagy egyiken sem."
+
+#: prefs.js
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: prefs.js
+msgid "Three"
+msgstr "Három"
+
+#: prefs.js
+msgid "None"
+msgstr "Nincs"
+
+#: prefs.js
 msgid "Custom Menu Item"
 msgstr "Saját menüpont"
 
@@ -276,3 +296,97 @@ msgstr "Változtatások alkalmazása"
 #: prefs.js
 msgid "Change log"
 msgstr "Változások"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Kilépés kényszerítése gyorsbillentyű"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Gyorsbillentyű, amely megnyitja a Kilépés kényszerítése ablakot."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Gyorsbillentyű törlése"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Letiltva"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "macOS-stílusú gyorsbillentyűk"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Gyorsbillentyű-tippek macOS-szimbólumokkal (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Gyorsbillentyű"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "A saját parancsot futtató gyorsbillentyű."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Gyorsbillentyű beállítása"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Nyomj meg egy gyorsbillentyűt"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc: mégse · Backspace: letiltás"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "A menüpont neve mellett megjelenő, nem kötelező kép."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Ikon"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Ikonfájl kiválasztása"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Ikon eltávolítása"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "A kiválasztott fájl nem található."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Saját menüpont ikonjának kiválasztása"
+
+#: prefs.js
+msgid "Images"
+msgstr "Képek"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Az elem nem érhető el"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "„%s” nem nyitható meg."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Az alkalmazás nem érhető el"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "„%s” nem indítható el."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Asztali környezet"

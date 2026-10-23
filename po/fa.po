@@ -100,6 +100,30 @@ msgstr "پنجره ورود..."
 msgid "Users & Groups Settings..."
 msgstr "تنظیمات کاربران و گروه‌ها..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "خروج فوری از برنامه‌ها"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "اگر برنامه‌ای مدتی پاسخ نمی‌دهد، نام آن را انتخاب کنید و روی «خروج فوری» کلیک کنید."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "تراشه"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "حافظه"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "سیستم‌عامل"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "اطلاعات بیشتر..."
+
 #: prefs.js
 msgid "Options"
 msgstr "ویژگی‌ها"
@@ -123,6 +147,26 @@ msgstr "دستور فروشگاه برنامه"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "دستوری که هنگام باز کردن گزینه منوی فروشگاه برنامه اجرا می‌شود."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "نقشک‌های گزینه‌های فهرست"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "نمایش نقشک برای همه گزینه‌ها، فقط برای سه گزینه نخست (درباره این رایانه، تنظیمات سامانه، فروشگاه کاره) یا برای هیچ‌کدام."
+
+#: prefs.js
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: prefs.js
+msgid "Three"
+msgstr "سه"
+
+#: prefs.js
+msgid "None"
+msgstr "هیچ"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -255,3 +299,97 @@ msgstr "اعمال تغییرات"
 #: prefs.js
 msgid "Change log"
 msgstr "گزارش تغییرات"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "میان‌بر خروج فوری"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "میان‌بر صفحه‌کلیدی که پنجرهٔ خروج فوری را باز می‌کند."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "پاک کردن میان‌بر"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "میان‌برهای سبک macOS"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "نمایش راهنمای میان‌برها با نمادهای macOS (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "میان‌بر صفحه‌کلید"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "میان‌بری که دستور سفارشی را اجرا می‌کند."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "تنظیم میان‌بر"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "یک میان‌بر را فشار دهید"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc برای لغو · Backspace برای غیرفعال کردن"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "تصویر اختیاری که کنار برچسب منو نمایش داده می‌شود."
+
+#: prefs.js
+msgid "Icon"
+msgstr "نقشک"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "انتخاب پروندهٔ نقشک"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "برداشتن نقشک"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "پروندهٔ انتخاب‌شده یافت نشد."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "انتخاب نقشک گزینهٔ منوی سفارشی"
+
+#: prefs.js
+msgid "Images"
+msgstr "تصاویر"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "مورد در دسترس نیست"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "باز کردن «%s» ممکن نشد."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "برنامه در دسترس نیست"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "اجرای «%s» ممکن نشد."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "میزکار"

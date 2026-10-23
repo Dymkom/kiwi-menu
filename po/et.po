@@ -96,6 +96,30 @@ msgstr "Sisselogimise aken..."
 msgid "Users & Groups Settings..."
 msgstr "Kasutajate ja gruppide seaded..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "Rakenduste sunnitud sulgemine"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "Kui rakendus ei reageeri mõnda aega, vali selle nimi ja klõpsa „Sunni sulgemine“."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "Kiip"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "Mälu"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "OS"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "Rohkem teavet..."
+
 #: prefs.js
 msgid "Options"
 msgstr "Valikud"
@@ -119,6 +143,26 @@ msgstr "Rakenduste poe käsk"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "Rakenduste poe menüü-elemendi avamisel käivitatav käsk."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "Menüüelementide ikoonid"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Näita ikoone kõigil kirjetel, ainult kolmel esimesel (Teave selle arvuti kohta, Süsteemi seaded, Rakenduste pood) või mitte ühelgi."
+
+#: prefs.js
+msgid "Default"
+msgstr "Vaikimisi"
+
+#: prefs.js
+msgid "Three"
+msgstr "Kolm"
+
+#: prefs.js
+msgid "None"
+msgstr "Puudub"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -251,3 +295,97 @@ msgstr "Rakenda muudatused"
 #: prefs.js
 msgid "Change log"
 msgstr "Muudatuste logi"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Sunni sulgemise kiirklahv"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Kiirklahv, mis avab sunni sulgemise akna."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Tühjenda kiirklahv"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Keelatud"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "macOS-stiilis kiirklahvid"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Näita kiirklahvide vihjeid macOS-i sümbolitega (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Kiirklahv"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "Kiirklahv, mis käivitab kohandatud käsu."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Määra kiirklahv"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Vajuta kiirklahvi"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc tühistab · Backspace keelab"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "Valikuline pilt, mida kuvatakse menüü sildi kõrval."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Ikoon"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Vali ikoonifail"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Eemalda ikoon"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "Valitud faili ei leitud."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Vali kohandatud menüüelemendi ikoon"
+
+#: prefs.js
+msgid "Images"
+msgstr "Pildid"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Üksus pole saadaval"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "„%s“ avamine ebaõnnestus."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Rakendus pole saadaval"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "„%s“ käivitamine ebaõnnestus."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Töölaud"

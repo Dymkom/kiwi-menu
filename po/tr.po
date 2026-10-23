@@ -97,6 +97,30 @@ msgstr "Giriş Ekranı..."
 msgid "Users & Groups Settings..."
 msgstr "Kullanıcılar ve Grup Ayarları..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "Uygulamalardan Zorla Çık"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "Bir uygulama bir süre yanıt vermezse adını seçin ve Zorla Çık'a tıklayın."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "Yonga"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "Bellek"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "İşletim Sistemi"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "Daha Fazla Bilgi..."
+
 #: prefs.js
 msgid "Options"
 msgstr "Seçenekler"
@@ -120,6 +144,26 @@ msgstr "Uygulama Mağazası Komutu"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "Uygulama Mağazası menü ögesi açıldığında çalıştırılacak komut."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "Menü Ögesi Simgeleri"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Simgeleri tüm ögelerde, yalnızca ilk üç ögede (Sistem Hakkında, Sistem Ayarları, Uygulama Mağazası) göster ya da hiçbirinde gösterme."
+
+#: prefs.js
+msgid "Default"
+msgstr "Varsayılan"
+
+#: prefs.js
+msgid "Three"
+msgstr "Üç"
+
+#: prefs.js
+msgid "None"
+msgstr "Hiçbiri"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -252,3 +296,97 @@ msgstr "Değişiklikleri Uygula"
 #: prefs.js
 msgid "Change log"
 msgstr "Değişiklik günlüğü"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Zorla Çık Kısayolu"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Zorla Çık penceresini açan klavye kısayolu."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Kısayolu Temizle"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "macOS Tarzı Kısayollar"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Kısayol ipuçlarını macOS simgeleriyle göster (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Klavye Kısayolu"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "Özel komutu çalıştıran kısayol."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Kısayol Ayarla"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Bir Kısayola Basın"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "İptal için Esc · Devre dışı bırakmak için Backspace"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "Menü etiketinin yanında gösterilen isteğe bağlı görsel."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Simge"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Simge Dosyası Seç"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Simgeyi Kaldır"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "Seçilen dosya bulunamadı."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Özel Menü Simgesini Seç"
+
+#: prefs.js
+msgid "Images"
+msgstr "Görseller"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Öge kullanılamıyor"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "“%s” açılamadı."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Uygulama kullanılamıyor"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "“%s” başlatılamadı."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Masaüstü"

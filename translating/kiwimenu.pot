@@ -150,6 +150,26 @@ msgid "Command launched when opening the App Store menu item."
 msgstr ""
 
 #: prefs.js
+msgid "Menu Item Icons"
+msgstr ""
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr ""
+
+#: prefs.js
+msgid "Default"
+msgstr ""
+
+#: prefs.js
+msgid "Three"
+msgstr ""
+
+#: prefs.js
+msgid "None"
+msgstr ""
+
+#: prefs.js
 msgid "Custom Menu Item"
 msgstr ""
 

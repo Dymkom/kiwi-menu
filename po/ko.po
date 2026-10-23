@@ -98,6 +98,30 @@ msgstr "로그인 창..."
 msgid "Users & Groups Settings..."
 msgstr "사용자 및 그룹 설정..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "앱 강제 종료"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "앱이 한동안 응답하지 않으면 해당 이름을 선택하고 강제 종료를 클릭하십시오."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "칩"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "메모리"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "OS"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "추가 정보..."
+
 #: prefs.js
 msgid "Options"
 msgstr "옵션"
@@ -121,6 +145,26 @@ msgstr "App Store 실행 명령"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "앱 스토어 메뉴 항목을 열 때 실행되는 명령입니다."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "메뉴 항목 아이콘"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "모든 항목에 아이콘을 표시하거나, 상위 세 항목(시스템 정보, 시스템 설정, 앱 스토어)에만 표시하거나, 표시하지 않습니다."
+
+#: prefs.js
+msgid "Default"
+msgstr "기본값"
+
+#: prefs.js
+msgid "Three"
+msgstr "세 개"
+
+#: prefs.js
+msgid "None"
+msgstr "없음"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -253,3 +297,97 @@ msgstr "변경사항 적용"
 #: prefs.js
 msgid "Change log"
 msgstr "변경 내역"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "강제 종료 단축키"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "강제 종료 창을 여는 키보드 단축키입니다."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "단축키 지우기"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "사용 안 함"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "macOS 스타일 단축키"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "macOS 기호(⌘ ⌥ ^ ⎋)로 단축키 힌트를 표시합니다."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "키보드 단축키"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "사용자 정의 명령을 실행하는 단축키입니다."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "단축키 설정"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "단축키를 누르십시오"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc로 취소 · Backspace로 사용 안 함"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "메뉴 레이블 옆에 표시되는 선택 사항 이미지입니다."
+
+#: prefs.js
+msgid "Icon"
+msgstr "아이콘"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "아이콘 파일 선택"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "아이콘 제거"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "선택한 파일을 찾을 수 없습니다."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "사용자 정의 메뉴 아이콘 선택"
+
+#: prefs.js
+msgid "Images"
+msgstr "이미지"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "항목을 사용할 수 없음"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "“%s”을(를) 열 수 없습니다."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "앱을 사용할 수 없음"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "“%s”을(를) 실행할 수 없습니다."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "데스크톱"

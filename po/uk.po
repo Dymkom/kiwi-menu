@@ -158,6 +158,26 @@ msgid "Command launched when opening the App Store menu item."
 msgstr "Команда-спонукач, яка запускає Крамницю зі списку."
 
 #: prefs.js
+msgid "Menu Item Icons"
+msgstr "Іконки елементів списку"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Показувати іконки на всіх елементах, лише на трьох верхніх (Про цей пристрій, Системні параметри, Крамниця програм) або на жодному."
+
+#: prefs.js
+msgid "Default"
+msgstr "Типово"
+
+#: prefs.js
+msgid "Three"
+msgstr "Три"
+
+#: prefs.js
+msgid "None"
+msgstr "Немає"
+
+#: prefs.js
 msgid "Custom Menu Item"
 msgstr "Власний елемент списку"
 
@@ -289,3 +309,97 @@ msgstr "Застосувати"
 #: prefs.js
 msgid "Change log"
 msgstr "Журнал змін"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Комбінація для примусового завершення"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Комбінація клавіш, що відкриває вікно примусового завершення."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Очистити комбінацію"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "Комбінації у стилі macOS"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Показувати підказки комбінацій із символами macOS (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Комбінація клавіш"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "Комбінація, що запускає власну команду."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Задати комбінацію"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Натисніть комбінацію клавіш"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc для скасування · Backspace для вимкнення"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "Необов'язкове зображення поруч із назвою в списку."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Іконка"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Вибрати файл іконки"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Вилучити іконку"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "Вибраний файл не знайдено."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Вибір іконки власного елемента списку"
+
+#: prefs.js
+msgid "Images"
+msgstr "Зображення"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Елемент недоступний"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "Не вдалося відкрити «%s»."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Програма недоступна"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "Не вдалося запустити «%s»."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Стільниця"

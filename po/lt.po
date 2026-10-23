@@ -96,6 +96,30 @@ msgstr "Prisijungimo langas..."
 msgid "Users & Groups Settings..."
 msgstr "Naudotojų ir grupių nustatymai..."
 
+#: app/forceQuitWindow.js
+msgid "Force Quit Applications"
+msgstr "Priverstinis programų išjungimas"
+
+#: app/forceQuitWindow.js
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "Jei programa kurį laiką nereaguoja, pasirinkite jos pavadinimą ir spustelėkite „Priverstinis išjungimas“."
+
+#: app/aboutWindow.js
+msgid "Chip"
+msgstr "Lustas"
+
+#: app/aboutWindow.js
+msgid "Memory"
+msgstr "Atmintis"
+
+#: app/aboutWindow.js
+msgid "OS"
+msgstr "OS"
+
+#: app/aboutWindow.js
+msgid "More Info..."
+msgstr "Daugiau informacijos..."
+
 #: prefs.js
 msgid "Options"
 msgstr "Parinktys"
@@ -119,6 +143,26 @@ msgstr "Programų parduotuvės komanda"
 #: prefs.js
 msgid "Command launched when opening the App Store menu item."
 msgstr "Komanda paleidžiama atidarant programų parduotuvės meniu elementą."
+
+#: prefs.js
+msgid "Menu Item Icons"
+msgstr "Meniu elementų piktogramos"
+
+#: prefs.js
+msgid "Show icons on every entry, on the top three (About This PC, System Settings, App Store) only, or on none."
+msgstr "Rodyti piktogramas visuose elementuose, tik trijuose viršutiniuose (Apie šį kompiuterį, Sistemos nustatymai, Programų parduotuvė) arba nė viename."
+
+#: prefs.js
+msgid "Default"
+msgstr "Numatytasis"
+
+#: prefs.js
+msgid "Three"
+msgstr "Trys"
+
+#: prefs.js
+msgid "None"
+msgstr "Nėra"
 
 #: prefs.js
 msgid "Custom Menu Item"
@@ -252,3 +296,97 @@ msgstr "Taikyti pakeitimus"
 #: prefs.js
 msgid "Change log"
 msgstr "Pakeitimų žurnalas"
+
+#: prefs.js
+msgid "Force Quit Shortcut"
+msgstr "Priverstinio išjungimo spartusis klavišas"
+
+#: prefs.js
+msgid "Keyboard shortcut that opens the Force Quit window."
+msgstr "Spartusis klavišas, atveriantis priverstinio išjungimo langą."
+
+#: prefs.js
+msgid "Clear Shortcut"
+msgstr "Išvalyti spartųjį klavišą"
+
+#: prefs.js
+msgid "Disabled"
+msgstr "Išjungta"
+
+#: prefs.js
+msgid "macOS Style Shortcuts"
+msgstr "macOS stiliaus spartieji klavišai"
+
+#: prefs.js
+msgid "Show accelerator hints using macOS symbols (⌘ ⌥ ^ ⎋)."
+msgstr "Rodyti sparčiųjų klavišų užuominas macOS simboliais (⌘ ⌥ ^ ⎋)."
+
+#: prefs.js
+msgid "Keyboard Shortcut"
+msgstr "Spartusis klavišas"
+
+#: prefs.js
+msgid "Shortcut that runs the custom command."
+msgstr "Spartusis klavišas, vykdantis pasirinktinę komandą."
+
+#: prefs.js
+msgid "Set Shortcut"
+msgstr "Nustatyti spartųjį klavišą"
+
+#: prefs.js
+msgid "Press a Shortcut"
+msgstr "Paspauskite spartųjį klavišą"
+
+#: prefs.js
+msgid "Esc to cancel · Backspace to disable"
+msgstr "Esc atšaukia · Backspace išjungia"
+
+#: prefs.js
+msgid "Optional image shown next to the menu label."
+msgstr "Neprivalomas paveikslėlis, rodomas šalia meniu etiketės."
+
+#: prefs.js
+msgid "Icon"
+msgstr "Piktograma"
+
+#: prefs.js
+msgid "Choose Icon File"
+msgstr "Pasirinkti piktogramos failą"
+
+#: prefs.js
+msgid "Remove Icon"
+msgstr "Pašalinti piktogramą"
+
+#: prefs.js
+msgid "Selected file was not found."
+msgstr "Pasirinktas failas nerastas."
+
+#: prefs.js
+msgid "Select Custom Menu Icon"
+msgstr "Pasirinkti pasirinktinio meniu elemento piktogramą"
+
+#: prefs.js
+msgid "Images"
+msgstr "Paveikslėliai"
+
+#: src/recentItemsSubmenu.js
+msgid "Item unavailable"
+msgstr "Elementas nepasiekiamas"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not open \"%s\"."
+msgstr "Nepavyko atverti „%s“."
+
+#: src/recentItemsSubmenu.js
+msgid "Application unavailable"
+msgstr "Programa nepasiekiama"
+
+#: src/recentItemsSubmenu.js
+#, javascript-format
+msgid "Could not launch \"%s\"."
+msgstr "Nepavyko paleisti „%s“."
+
+#: app/aboutWindow.js
+msgid "Desktop"
+msgstr "Darbalaukis"
